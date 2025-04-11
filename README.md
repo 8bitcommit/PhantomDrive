@@ -34,20 +34,19 @@ Designed for:
 ## Architecture
 
 /dev/sdb1 – EFI boot partition (1 GB, FAT32, boot/esp) 
-\n/dev/sdb2 – Ubuntu OS (33 GB, ext4) 
-\n/dev/sdb3 – Shared storage + VMs (200 GB, exFAT)
+
+/dev/sdb2 – Ubuntu OS (33 GB, ext4) 
+
+/dev/sdb3 – Shared storage + VMs (200 GB, exFAT)
 
 
 ---
 
 ## Getting Started
 
-1. Clone this repo
-2. Use the `install/` scripts to set up your USB
-3. Reboot and boot from USB (UEFI recommended)
-4. Launch into your VM of choice via the Phantom Launcher
 
-> Detailed walkthroughs available in the `docs/` folder
+
+> Detailed walkthroughs available in the UserManual
 
 ---
 
@@ -57,10 +56,10 @@ Want to contribute? Hell yes.
 
 Whether you're into bash scripting, kernel hardening, UX design, or just writing great documentation, there's room for you.
 
-Start with our [CONTRIBUTING.md](CONTRIBUTING.md) to get familiar.
+
 
 Some good first issues:
-- Pmprove graphical VM launcher
+- Improve graphical VM launcher
 - Integrate LUKS encryption
 - Optimize boot time and systemd units
 - Add hash checking for new .VBOX files
