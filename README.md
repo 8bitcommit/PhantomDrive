@@ -34,8 +34,8 @@ Designed for:
 ## Architecture
 
 /dev/sdb1 – EFI boot partition (1 GB, FAT32, boot/esp) 
-/dev/sdb2 – Ubuntu OS (33 GB, ext4) 
-/dev/sdb3 – Shared storage + VMs (200 GB, exFAT)
+\n/dev/sdb2 – Ubuntu OS (33 GB, ext4) 
+\n/dev/sdb3 – Shared storage + VMs (200 GB, exFAT)
 
 
 ---
