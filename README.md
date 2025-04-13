@@ -20,7 +20,7 @@ Designed for:
 ## Core Features
 
 - **Bootable USB with persistent Ubuntu base OS**
-- **Air-gapped by default** (network services off on boot)
+- 
 - **MAC address randomization**
 - **GRUB-controlled UEFI boot partition**
 - **VirtualBox pre-installed for multi-OS flexibility**
@@ -52,7 +52,7 @@ Designed for:
 
 ## Contributing
 
-Want to contribute? Hell yes.
+Want to contribute? 
 
 Whether you're into bash scripting, kernel hardening, UX design, or just writing great documentation, there's room for you.
 
